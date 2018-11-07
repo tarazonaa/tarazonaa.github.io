@@ -119,3 +119,9 @@ p {
 img {
   border-radius: 50%;
 }
+
+.about-author img {
+  width: 200px;
+  height: 280px;
+  horizontal-align: center;
+}

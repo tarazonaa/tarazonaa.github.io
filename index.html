@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="script.js"></script>
   <link rel="stylesheet" href="style.css">
 <head>
   <title>Metal Reviews</title>
@@ -7,9 +9,9 @@
 <body>
   <div id="header">
     <div class="container">
-      <a id="header-title" href="index.html">Reviews</a>
+      <a id="header-title" href="index.html">Andy Tarazona</a>
       <ul id="header-nav">
-        <li><a href="about.html">About
+        <li><a href="about.html">Reviews
         </a></li>
         <li><a href="contact.html">Contact
         </a></li>
@@ -17,21 +19,22 @@
     </div>
   </div>
   <div id="content">
-      <div class="container">
-        <div class="post">
-          <div class="post-author">
-            <img src="IMG-20181006-WA0019.jpg" alt="">
-            <span>Me</span>
-          </div>
-          <p class="post-date">Today</p>
-          <h3 class="post-title">The Aristocrats</h3>
-          <div class="post-content">
-            <p>Really good album.</p>
-            <p>9/10 Jazzy stuffs</p>
-          </div>
-        </div>
+    <div id="abt-content">
+      <button class="index-btn" id="about-btn">About</button>
+      <div class="about-content">
+        <h2>Andy is an aspiring musician and music critic.</h2>
+        <h3>Working on debut album.</h3>
       </div>
     </div>
+    <div id="rvw-content">
+      <button class="index-btn" id="rvw-btn">Newest Review</button>
+      <div class="review-content">
+        <img src="220px-Protest_the_Hero_-_Fortress.jpg" alt="">
+        <h2>9/10</h2>
+        <h3></h3>
+      </div>
+    </div>
+  </div>
   <div id="footer">
       <div class="container">
         <div class="column">
